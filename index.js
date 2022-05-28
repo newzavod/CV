@@ -16,3 +16,5 @@ document.querySelector('#click').onclick = function () {
 
 // window.onafterprint = window.close;
 // window.print();
+
+
