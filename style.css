@@ -35,14 +35,14 @@
 
 .contact img {
     display: inline-block;
-    max-height: 30px;
+    max-height: 20px;
     margin-top: 10px;
     margin-right: 20px;
     opacity: 0.5;
 }
 
 .card img {
-    height: 150px;
+    height: 200px;
 }
 
 /* .swich-lang {
@@ -66,38 +66,55 @@
 }
 
 h1 {
-    margin-bottom: 0;
     font-size: 36px;
 }
 
 h2 {
     font-size: 24px;
     font-weight: 400;
-    margin-bottom: 8px;
 }
 
 h3 {
     font-size: 20px;
     text-align: left;
     font-weight: 400;
-    border-bottom: 1px solid grey;
-    margin-bottom: 8px;
+    flex: 0 0 100%;
+    max-width: 20%;
+    /* padding: 10px; */
 }
 
 h4 {
-    margin: 0;
-    padding-top: 0;
-    padding-left: 20%;
+    /* margin: 0;
+    padding-top: 0; */
+    padding-left: 5%;
     font-size: 16px;
     font-weight: 400;
 }
 
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
 
+.flex_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.flex_elem {
+    flex: 0 0 100%;
+    max-width: 50%;
+}
 
 p {
-    margin-bottom: 12px;
-    text-align: left;
-    padding-left: 20%;
+    /* margin-bottom: 12px; */
+    /* text-align: left; */
+    padding-left: 5%;
 }
 
 p span {
@@ -106,18 +123,18 @@ p span {
 }
 
 ul {
-    margin-top: 5px;
-    padding-left: 20%;
+    /* margin-top: 5px; */
+    /* padding-left: 10%; */
 
 }
 
 ul li {
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 header {
-    margin-bottom: 32px;
-    text-align: center;
+    /* margin-bottom: 32px;
+    text-align: center; */
 }
 
 /* .links_no_print {
@@ -126,9 +143,9 @@ header {
     justify-content: left;
 } */
 
-footer {
+/* footer {
     margin-top: 10px;
-}
+} */
 
 table {
     /* justify-content: center; */
