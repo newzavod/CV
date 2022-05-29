@@ -1,13 +1,20 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
-
 }
 
-.wrap {
+/* .wrap {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+} */
+.block_info {
+    margin-top: 10px;
 }
 
 .card {
@@ -18,20 +25,15 @@
     align-items: center;
 }
 
-.wrap_padding {
-    /* border: #333333 1px solid; */
-    height: 100%;
-    padding: 10px 15px 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-/* .contact {
+.contact_head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-} */
+}
+
+.contact {
+    text-align: right;
+}
 
 .contact img {
     display: inline-block;
@@ -66,32 +68,28 @@
 }
 
 h1 {
-    font-size: 36px;
+    margin-bottom: 20px;
 }
 
 h2 {
     font-size: 24px;
     font-weight: 400;
-}
-
-h3 {
-    font-size: 20px;
     text-align: left;
     font-weight: 400;
     flex: 0 0 100%;
     max-width: 20%;
-    /* padding: 10px; */
 }
 
-h4 {
-    /* margin: 0;
-    padding-top: 0; */
+h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
     padding-left: 5%;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .info {
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -103,7 +101,6 @@ h4 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .flex_elem {
@@ -112,8 +109,6 @@ h4 {
 }
 
 p {
-    /* margin-bottom: 12px; */
-    /* text-align: left; */
     padding-left: 5%;
 }
 
@@ -122,45 +117,25 @@ p span {
     font-weight: bold;
 }
 
-ul {
-    /* margin-top: 5px; */
-    /* padding-left: 10%; */
-
-}
-
-ul li {
-    /* margin-left: 20px; */
-}
-
-header {
-    /* margin-bottom: 32px;
-    text-align: center; */
-}
-
-/* .links_no_print {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-} */
-
-/* footer {
+ul p {
     margin-top: 10px;
-} */
+    margin-bottom: 5px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
 
 table {
-    /* justify-content: center; */
-    /* border: 1px grey solid; */
     border-collapse: collapse;
     width: 800px;
     margin: auto;
-
 }
 
 td {
     border: solid 1px green;
     width: 100%;
     text-align: center;
-
 }
 
 button {
@@ -186,27 +161,20 @@ button:hover {
     body {
         height: 297mm;
         width: 210mm;
-        font-size: 14px;
+        font-size: 12px;
         margin: 0 auto;
     }
 
     h1 {
-        /* margin: 0; */
-        font-size: 22px;
+        font-size: 20px;
     }
 
     h2 {
-        font-size: 18px;
-    }
-
-    h3 {
-        /* padding-top: 0; */
         font-size: 16px;
     }
 
-    h4 {
+    h3 {
         font-size: 14px;
-        margin: 0;
     }
 
     .links_no_print {
